@@ -1,7 +1,7 @@
-# C2 Python Bot Discord
+# C2 Python Discord Bot
 *(Created by Diego Monteiro)*
 
-## What's "C2 bot Discord" ?
+## What's "C2 Discord bot" ?
 
 > The C2 Bot Discord utilizes the Discord's Developer functionality that allows you to make bots capable to interager with the user acting like a Command and Control Server.
 
@@ -12,8 +12,6 @@
 <br>
 
 ## C2 Bot Discord commands:
-
-<br>
 
 Command | Functions
 ----------|-----------
