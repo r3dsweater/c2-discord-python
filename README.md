@@ -3,7 +3,7 @@
 
 ## What's "C2 Discord bot" ?
 
-> The C2 Bot Discord utilizes the Discord's Developer functionality that allows you to make bots capable to interager with the user acting like a Command and Control Server.
+> The C2 Discord bot utilizes the Discord's Developer functionality that allows you to make bots capable to interager with the user acting like a Command and Control Server.
 
 <br>
 
@@ -11,7 +11,7 @@
 
 <br>
 
-## C2 Bot Discord commands:
+## C2 Discord bot commands:
 
 Command | Functions
 ----------|-----------
