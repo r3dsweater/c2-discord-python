@@ -46,6 +46,6 @@ Get the key logger every 30 seconds. The bot will send to you in a .txt format:
 
 <br>
 
-## Remenber:
+## Remember:
 - Put your discord token in 'PUT YOUR TOKEN HERE' in the <text>botDiscord.py</text> file.
 - Replace '000000' in the <text>botDiscord.py</text> file to your user id.
