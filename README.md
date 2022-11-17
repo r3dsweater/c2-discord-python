@@ -1,5 +1,4 @@
 # C2 Python Discord Bot
-*(Created by Diego Monteiro)*
 
 ## What's "C2 Discord bot" ?
 
